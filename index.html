@@ -161,45 +161,21 @@ height: 50px;
     }
 }
 
+@media (max-width:990px) {
+ 
+.vfh{
+    width: 90%;
+    height: 80%;
+}
+    .container{
+        flex-direction: column;
+    }
+    .left p{
+        font-size: 25px;
+    }
+}
 
 
-/* about */
-.about{
-  width: 100%;
-  height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.aleft{
-    color: white;
-    padding: 4% 2% 1% 3%;
-    width: 50%;
-    height: 100%;
-    background-color: red;
-}
-.aright
-{
-    width: 50%;
-    height: 100%;
-background-color: green;
-}
-.ha{
-    font-size: 4rem;
-    font-weight: 600;
-    color: rgb(255, 217, 0);
-}
-.hap{
-    font-size: 1.4rem;
-    font-weight: 500;
-
-}
-.bbbbb{
-    color: rgb(255, 217, 0);
-    font-size: 2.1rem;
-    font-weight: 650;
-}
     </style>
 </head>
 <body>
@@ -231,15 +207,16 @@ background-color: green;
                 <a id="x" style="color: rgb(255, 217, 0);" class="nav-link active" href="#">PORTFOLIO</a>
               </li>
               <li class="nav-item">
-                <a id="x" style="color: rgb(255, 217, 0);" class="nav-link active" href="#">CONTACT</a>
+                <a id="x" style="color: rgb(255, 217, 0);" class="nav-link active" href="#">LOGIN / SIGNUP</a>
               </li>
               
             </ul>
           </div>
         </div>
       </nav>
-
-      <div class="container">
+<section class="sec1">
+    
+    <div class="container">
         <div class="left">
             <h1>MARIA KHAN</h1>
             <h2>I AM A <span class="s1">WEBSITE DEVELOPER</span></h2>
@@ -248,11 +225,11 @@ background-color: green;
         </div>
         <div class="right">
 
-        <img id="i1" src="./home.png" width="40%" alt="">
+        <img class="vfh" id="i1" src="./home.png" width="40%" alt="">
         </div>
       </div>
 
-<br><br>
+</section>
 
 
 
@@ -262,19 +239,7 @@ background-color: green;
 
 
       <!-- ABOUT -->
-      <div class="about">
-          <div class="aleft">
-              <h1 class="ha">ABOUT ME</h1>
-              <p class="hap">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam alias dignissimos rem cupiditate pariatur quia quis, error, quisquam doloribus ratione illo facilis ipsum necessitatibus soluta tempora eligendi odio voluptas commodi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ex ratione sunt fuga quas, nesciunt officia consequatur consectetur aperiam adipisci blanditiis. Quam harum, neque similique laudantium cumque pariatur inventore nam!Lorem</p>
-              <p id="plp">
-                  
-            </p>
-            <a id="kml" class="bbbbb" onclick="setTimeout(omMk())" href="#">READ MORE</a>
-        </div>
-        <div class="aright">
-            <img src="./pngfind.com-business-woman-png-1612489.png" width="80%" height="80%" alt="">
-        </div>
-    </div>
+    
       <!-- ABOUT -->
     <script src="app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" integrity="sha512-rXm6RiYDlz+aZC/ht75tGzeAmCg4gVfBA6Be5s5uENSahiXkgwEy10J2Cc+dxUAW4lRRQYbS5pugMOqBrs8ksw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
